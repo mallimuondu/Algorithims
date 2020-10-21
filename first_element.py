@@ -1,5 +1,7 @@
 def main():
+    ar = []
     i1 = input('input a numer to find the first element: ')
+    ar.append(i1)
     l = len(i1)
     if l < 1:
         print('insert more than 1number.pls try again')
